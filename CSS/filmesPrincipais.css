@@ -1,0 +1,38 @@
+.atropos{
+    margin-top: 60px;
+}
+
+.filmesPrincipais{
+    width: 100%;
+    height: 700px;
+    background: rgb(40,9,68);
+background: linear-gradient(90deg, rgba(40,9,68,1) 0%, rgba(118,33,186,1) 0%, rgba(56,14,93,1) 100%);
+    
+}
+
+.filmesPrincipais__titulo{
+    text-align: center;
+    color: aliceblue;
+}
+img,.my-atropos,.my-atropos2,.my-atropos3,.my-atropos4, .my-atropos5, .my-atropos6{
+    border-radius: 12px;
+    width: 400px;
+    height: auto;
+}
+.fila-de-cima{
+    display: flex;
+    justify-content: space-around;
+}
+.fila-de-baixo{
+    display: flex;
+    justify-content: space-around;
+
+}
+@media(max-width: 720px){
+    .fila-de-baixo,.fila-de-cima{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

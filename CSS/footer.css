@@ -1,0 +1,12 @@
+footer{
+    color: aliceblue;
+    background-color: #190330;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.creditos{
+    color: aliceblue;
+    font-family: Alkatra;
+}
